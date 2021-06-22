@@ -29,7 +29,7 @@ mongoose.connect(
 // router
 //app.use("/api/users", userRoute);
 //app.use("/api/user", userRoute);
-app.use("/api/rate", rateRoute);
+app.use("/api/rates", rateRoute);
 
 // app listen
 const PORT = process.env.PORT || 3300
